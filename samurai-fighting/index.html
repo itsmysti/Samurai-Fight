@@ -1,0 +1,31 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css"
+</head>
+<body>
+    <audio src="back.mp3" preload="auto" autoplay loop hidden></audio>
+    <div class="container">
+        <div class="healthBarsArea">
+            <div class="playerHealtyBar" >
+                <div class="healthBarWrapper"></div>
+                <div id="playerHealth"></div>
+            </div>
+            <div id="timer" class="timer">10</div>
+            <div class="enemyHealtyBar">
+                <div class="healthBarWrapper"></div>
+                <div id="enemyHealth"></div>
+            </div>
+        </div>
+        <div id="displayText">Tie</div>
+        <canvas></canvas>
+    </div>
+    
+    <script src="js/utils.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="index.js"></script>
+</body>
